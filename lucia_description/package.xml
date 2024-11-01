@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>lucia_bringup</name>
+  <name>lucia_description</name>
   <version>1.0.0</version>
   <description>
     ROS 2 launch scripts for starting the Lucia
@@ -9,11 +9,7 @@
   <maintainer email="haruki.isono861@gmail.com">Haruki Isono</maintainer>
   <license>Apache 2.0</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <exec_depend>urg_node2</exec_depend>
-  <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>rviz2</exec_depend>
-  <exec_depend>lucia_description</exec_depend>
-  <exec_depend>lucia_node</exec_depend>
+ <depend>urdf</depend>
   <export>
     <build_type>ament_cmake</build_type>
   </export>
