@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/launch
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/launch/occupancy_grid.launch.py
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/launch/urg_node2_cartographer.launch.py
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/config
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/config/urg_cartographer.lua
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/rviz
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/rviz/urg_cartographer.rviz
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/ament_index/resource_index/package_run_dependencies/lucia_cartographer
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/ament_index/resource_index/parent_prefix_path/lucia_cartographer
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/environment/ament_prefix_path.dsv
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/environment/path.sh
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/environment/path.dsv
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/local_setup.bash
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/local_setup.sh
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/local_setup.zsh
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/local_setup.dsv
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/package.dsv
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/ament_index/resource_index/packages/lucia_cartographer
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/cmake/lucia_cartographerConfig.cmake
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/cmake/lucia_cartographerConfig-version.cmake
+-- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer/share/lucia_cartographer/package.xml

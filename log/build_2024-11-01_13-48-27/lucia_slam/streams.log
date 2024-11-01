@@ -1,0 +1,16 @@
+[0.050s] Invoking command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake --build /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam -- -j4 -l4
+[0.131s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.454s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.454s]   ament_package_xml() package name 'lucia_slam' in '/package.xml' does not
+[0.454s]   match current PROJECT_NAME 'lucia_cartographer'.  You must call project()
+[0.454s]   with the same package name before.
+[0.455s] Call Stack (most recent call first):
+[0.455s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.455s]   CMakeLists.txt:26 (ament_lint_auto_find_test_dependencies)
+[0.455s] 
+[0.455s] [0m
+[0.455s] -- Configuring incomplete, errors occurred!
+[0.455s] See also "/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam/CMakeFiles/CMakeOutput.log".
+[0.458s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.463s] Invoked command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake --build /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam -- -j4 -l4

@@ -1,0 +1,45 @@
+[0.032s] Invoking command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake --build /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam -- -j4 -l4
+[0.069s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.250s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.355s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.384s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.385s] -- Configured cppcheck include dirs: 
+[0.385s] -- Configured cppcheck exclude dirs and/or files: 
+[0.428s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.428s] -- Configured cpplint exclude dirs and/or files: 
+[0.434s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.442s] -- Added test 'lint_cmake' to check CMake code style
+[0.448s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.472s] -- Added test 'uncrustify' to check C / C++ code style
+[0.472s] -- Configured uncrustify additional arguments: 
+[0.476s] -- Added test 'xmllint' to check XML markup files
+[0.481s] -- Configuring done
+[0.490s] -- Generating done
+[0.492s] -- Build files have been written to: /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam
+[0.531s] Invoked command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake --build /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam -- -j4 -l4
+[0.586s] Invoking command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake --install /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam
+[0.598s] -- Install configuration: ""
+[0.598s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/launch
+[0.600s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/launch/slam.launch.py
+[0.600s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/launch/description.launch.py
+[0.601s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/launch/robot_bringup.launch.py
+[0.601s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/config
+[0.601s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/config/mapper_params_online_sync.yaml
+[0.601s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/rviz
+[0.601s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/rviz/default.rviz
+[0.601s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/ament_index/resource_index/package_run_dependencies/lucia_slam
+[0.601s] -- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/ament_index/resource_index/parent_prefix_path/lucia_slam
+[0.602s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/environment/ament_prefix_path.sh
+[0.602s] -- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/environment/ament_prefix_path.dsv
+[0.602s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/environment/path.sh
+[0.602s] -- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/environment/path.dsv
+[0.602s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/local_setup.bash
+[0.602s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/local_setup.sh
+[0.602s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/local_setup.zsh
+[0.602s] -- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/local_setup.dsv
+[0.602s] -- Installing: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/package.dsv
+[0.603s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/ament_index/resource_index/packages/lucia_slam
+[0.603s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/cmake/lucia_slamConfig.cmake
+[0.603s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/cmake/lucia_slamConfig-version.cmake
+[0.604s] -- Up-to-date: /home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/package.xml
+[0.606s] Invoked command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake --install /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam

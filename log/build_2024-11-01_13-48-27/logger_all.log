@@ -1,0 +1,176 @@
+[0.301s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.301s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x755a0780ed10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x755a0780e740>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x755a0780e740>>)
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.633s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/peach/ros2_ws/src/lucia_slam_navigation'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extension 'ros'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extensions ['cmake', 'python']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extension 'cmake'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extension 'python'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extensions ['python_setup_py']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(include/lucia_slam_navigation) by extension 'python_setup_py'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_cartographer) by extension 'ros'
+[0.654s] DEBUG:colcon.colcon_core.package_identification:Package 'lucia_cartographer' with type 'ros.ament_cmake' and name 'lucia_cartographer'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extension 'ros'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extensions ['cmake', 'python']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extension 'cmake'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extension 'python'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extensions ['python_setup_py']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_navigation) by extension 'python_setup_py'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extensions ['colcon_meta']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(lucia_slam) by extension 'ros'
+[0.657s] DEBUG:colcon.colcon_core.package_identification:Package 'lucia_slam' with type 'ros.ament_cmake' and name 'lucia_slam'
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.707s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 28 installed packages in /home/peach/ros2_ws/install
+[0.708s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/peach/install
+[0.709s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/peach/ros2_ws/src/urdf_tutorial_r2d2/install
+[0.710s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/peach/ros2_ws/src/install
+[0.716s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 430 installed packages in /opt/ros/humble
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.857s] DEBUG:colcon.colcon_core.verb:Building package 'lucia_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer', 'merge_install': False, 'path': '/home/peach/ros2_ws/src/lucia_slam_navigation/lucia_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'cmake_target' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'lucia_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.858s] DEBUG:colcon.colcon_core.verb:Building package 'lucia_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam', 'merge_install': False, 'path': '/home/peach/ros2_ws/src/lucia_slam_navigation/lucia_slam', 'symlink_install': False, 'test_result_base': None}
+[0.858s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.859s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peach/ros2_ws/src/lucia_slam_navigation/lucia_cartographer' with build type 'ament_cmake'
+[0.859s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peach/ros2_ws/src/lucia_slam_navigation/lucia_cartographer'
+[0.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.881s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peach/ros2_ws/src/lucia_slam_navigation/lucia_slam' with build type 'ament_cmake'
+[0.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peach/ros2_ws/src/lucia_slam_navigation/lucia_slam'
+[0.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake /home/peach/ros2_ws/src/lucia_slam_navigation/lucia_cartographer -DCMAKE_INSTALL_PREFIX=/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_cartographer
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake --build /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam -- -j4 -l4
+[1.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peach/ros2_ws/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/install/urdf_robot:/home/peach/ros2_ws/install/ros2_workshop:/home/peach/ros2_ws/install/lucia_slam_navigation:/home/peach/ros2_ws/src/urdf_tutorial_r2d2/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_tutorial_r2d2:/home/peach/ros2_ws/src/install/urdf_robot:/home/peach/ros2_ws/src/install/ros2_workshop:/opt/ros/humble /usr/bin/cmake --build /home/peach/ros2_ws/src/lucia_slam_navigation/build/lucia_slam -- -j4 -l4
+[1.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lucia_slam)
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam' for CMake module files
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam' for CMake config files
+[1.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('lucia_slam', 'cmake_prefix_path')
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/hook/cmake_prefix_path.ps1'
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/hook/cmake_prefix_path.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/hook/cmake_prefix_path.sh'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/bin'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/lib/pkgconfig/lucia_slam.pc'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/lib/python3.10/site-packages'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/bin'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/package.ps1'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/package.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/package.sh'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/package.bash'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/lucia_slam/package.zsh'
+[1.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peach/ros2_ws/src/lucia_slam_navigation/install/lucia_slam/share/colcon-core/packages/lucia_slam)
+[2.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.622s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.637s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.672s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/local_setup.ps1'
+[2.674s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peach/ros2_ws/src/lucia_slam_navigation/install/_local_setup_util_ps1.py'
+[2.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/setup.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/local_setup.sh'
+[2.684s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peach/ros2_ws/src/lucia_slam_navigation/install/_local_setup_util_sh.py'
+[2.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/setup.sh'
+[2.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/local_setup.bash'
+[2.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/setup.bash'
+[2.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/local_setup.zsh'
+[2.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peach/ros2_ws/src/lucia_slam_navigation/install/setup.zsh'
