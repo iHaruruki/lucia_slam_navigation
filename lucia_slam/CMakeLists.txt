@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(lucia_cartographer)
+project(lucia_slam)
 
 # find dependencies
 find_package(ament_cmake REQUIRED)

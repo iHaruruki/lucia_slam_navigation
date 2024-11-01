@@ -22,7 +22,6 @@
   <depend>slam_toolbox</depend>
   <depend>urg_node</depend>
   <depend>xacro</depend>
-  <exec_depend>cartographer_ros</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
