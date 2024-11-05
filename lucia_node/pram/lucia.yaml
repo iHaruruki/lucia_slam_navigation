@@ -1,0 +1,10 @@
+lucia_node:
+  ros_parameters:
+
+    diff_drive_controller:
+      ros_parameters:
+        
+        odometry:
+          publish_tf: true
+          frame_id: "odom"
+          child_frame_id: "base_footprint"

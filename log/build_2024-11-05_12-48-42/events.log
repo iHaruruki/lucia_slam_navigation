@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (-) JobUnselected: {'identifier': 'lucia'}
+[0.000223] (-) JobUnselected: {'identifier': 'lucia_bringup'}
+[0.000249] (-) JobUnselected: {'identifier': 'lucia_cartographer'}
+[0.000274] (-) JobUnselected: {'identifier': 'lucia_description'}
+[0.000298] (-) JobUnselected: {'identifier': 'lucia_description'}
+[0.000321] (-) JobUnselected: {'identifier': 'lucia_description'}
+[0.000345] (-) JobUnselected: {'identifier': 'lucia_slam'}
+[0.000384] (-) JobUnselected: {'identifier': 'lucia_teleop'}
+[0.000901] (-) EventReactorShutdown: {}

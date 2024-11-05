@@ -21,16 +21,16 @@
 #include <rcutils/cmdline_parser.h>
 #include <rclcpp/rclcpp.hpp>
 
-#include "turtlebot3_node/diff_drive_controller.hpp"
+#include "lucia_node/diff_drive_controller.hpp"
 #include "turtlebot3_node/turtlebot3.hpp"
 
 void help_print()
 {
-  printf("For turtlebot3 node : \n");
-  printf("turtlebot3_node [-i usb_port] [-h]\n");
+  printf("For lucia node : \n");
+  //printf("lucia_node [-i usb_port] [-h]\n");
   printf("options:\n");
   printf("-h : Print this help function.\n");
-  printf("-i usb_port: Connected USB port with OpenCR.");
+  //printf("-i usb_port: Connected USB port with OpenCR.");
 }
 
 int main(int argc, char * argv[])
@@ -44,7 +44,7 @@ int main(int argc, char * argv[])
 
   rclcpp::init(argc, argv);
 
-  std::string usb_port = "/dev/ttyACM0";
+  //std::string usb_port = "/dev/ttyACM0";
   char * cli_options;
   cli_options = rcutils_cli_get_option(argv, argv + argc, "-i");
   if (nullptr != cli_options) {
@@ -53,13 +53,13 @@ int main(int argc, char * argv[])
 
   rclcpp::executors::SingleThreadedExecutor executor;
 
-  auto turtlebot3 = std::make_shared<robotis::turtlebot3::TurtleBot3>(usb_port);
+  //auto turtlebot3 = std::make_shared<robotis::turtlebot3::TurtleBot3>(usb_port);
   auto diff_drive_controller =
-    std::make_shared<robotis::turtlebot3::DiffDriveController>(
-    turtlebot3->get_wheels()->separation,
-    turtlebot3->get_wheels()->radius);
+    std::make_shared<robotis::lucia::DiffDriveController>(
+    lucia->get_wheels()->separation,
+    lucia->get_wheels()->radius);
 
-  executor.add_node(turtlebot3);
+  executor.add_node(lucia);
   executor.add_node(diff_drive_controller);
   executor.spin();
 
