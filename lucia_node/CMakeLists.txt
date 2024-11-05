@@ -27,7 +27,9 @@ include_directories(
 )
 
 add_library(${PROJECT_NAME}_lib
+    "src/diff_drive_controller.cpp"
     "src/odometry.cpp"
+    "src/lucia.cpp"
     "src/joint_state.cpp"
     "src/sensors/sensor_state.cpp"
 )
